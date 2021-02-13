@@ -1,0 +1,56 @@
+.container header nav {
+  background-color: gray;
+  height: 4rem;
+  font-size: 2rem;
+  color: greenyellow;
+  text-align: center;
+}
+
+.container .upload-file {
+  border: 3px solid gray;
+  border-radius: 7px;
+  width: 41rem;
+  padding: 1rem;
+  padding-left: 9rem;
+  margin: 2rem 0 0 15rem;
+}
+
+.container .premium {
+  border: 3px solid gray;
+  width: 41rem;
+  border-radius: 7px;
+  text-align: center;
+  font-size: 1.3rem;
+  margin: 1rem 0 0 15rem;
+}
+
+.container .image-params {
+  border: 3px solid gray;
+  width: 41rem;
+  border-radius: 7px;
+  /* text-align: center; */
+  font-size: 1.3rem;
+  margin: 1rem 0 0 15rem;
+}
+
+.container .image-params .field-size {
+  width: 9rem;
+}
+
+.container .image-params .field-size-1 {
+  width: 10rem;
+}
+
+.container .image-params .select {
+  width: 21% !important;
+  display: initial !important;
+}
+
+.container .image-params .select-1 {
+  width: 29% !important;
+  display: initial !important;
+}
+
+.container #link {
+  color: white;
+}
