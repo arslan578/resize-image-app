@@ -11,9 +11,9 @@ If you feel difficulty to set up the Environment. So, you can use any environmen
 3. Update .env file `DATABASE_URL` with your  `sqlite:////tmp/my-tmp-sqlite.db`, if you want to use sqlite for local development.
     
 ### Getting Started
-1. Run `docker build --tag flask-docker-app .`
-2. Run `docker run  -p 5000:5000 flask-docker-app`
-3. Visit `http://0.0.0.0:5002`
+1. Run `docker image build -t resize-image-app .`
+2. Run `docker run  -p 5000:5000 -d resize-image-app`
+3. Visit `http://0.0.0.0:5000`
 
 
 
