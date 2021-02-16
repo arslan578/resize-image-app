@@ -11,9 +11,10 @@ If you feel difficulty to set up the Environment. So, you can use any environmen
 3. Update .env file `DATABASE_URL` with your  `sqlite:////tmp/my-tmp-sqlite.db`, if you want to use sqlite for local development.
     
 ### Getting Started
-1. Run `docker image build -t resize-image-app .`
-2. Run `docker run  -p 5000:5000 -d resize-image-app`
-3. Visit `http://0.0.0.0:5000`
+- Run `docker image build -t resize-image-app .`
+- Run `docker run  -p 5000:5000 -d resize-image-app` (Run In Detach Mode)
+- Run `docker run  -p 5000:5000 resize-image-app`
+- Visit `http://0.0.0.0:5000`
 
 
 
